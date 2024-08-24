@@ -9,8 +9,8 @@
     <style>
         body {
             font-family: Arial, sans-serif;
-            background-color: #f0f0f0;
-            color: #333;
+            background-color: #000000;
+            color: white;
             margin: 0;
             padding: 20px;
             display: flex;
@@ -27,18 +27,18 @@
         }
         h2 {
             text-align: center;
-            color: #444;
+            color: white;
             margin-bottom: 20px;
         }
         .total-drops {
             text-align: center;
             font-size: 18px;
             font-weight: bold;
-            color: #444;
+            color: white;
             margin-bottom: 20px;
         }
         #totalDrops {
-            color: green;
+            color: red;
         }
         table {
             width: 100%;
@@ -68,7 +68,7 @@
         }
         .dz {
             text-decoration: none;
-            color: tomato;
+            color: crimson;
             font-weight: bold;
         }
         .dz:hover {
@@ -86,17 +86,18 @@
             border-radius: 3px;
         }
         .footer {
-            background-color: black;
+            background-color: #333;
             text-align: center;
             padding: 10px;
             width: 100%;
             position: fixed;
             bottom: 0;
             left: 0;
-            font-weight: bold;
         }
         .footer a {
-          color: tomato;
+          color: crimson;
+          font-family: Arial;
+          font-weight: bold;
           text-decoration: none;
         }
         .footer a:hover {
@@ -113,7 +114,7 @@
     <div class="content">
         <h2><a class="dz" href="https://www.rucoyonline.com/characters/Xzydanzz">Xzydanzz</a> Boss Drop</h2>
         <div class="total-drops">
-            Dapet : <span id="totalDrops">0</span>
+            Drop : <span id="totalDrops">0</span>
         </div>
         <table>
             <thead>
@@ -137,7 +138,7 @@
         </table>
     </div>
     <div class="footer">
-        <a href="https://www.rucoyonline.com/characters/Xzydanzz">Xzydanzz</a>
+      <a href="https://www.rucoyonline.com/characters/Xzydanzz">Xzydanzz</a>
     </div>
     <script>
         // Function to count the total number of drops
